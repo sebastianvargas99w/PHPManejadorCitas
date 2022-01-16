@@ -1,0 +1,12 @@
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\WebTest1.webtest
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\GestorDeCitas.dll
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\GestorDeCitas.pdb
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\GestorDeCitas.xml
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\Microsoft.VisualStudio.QualityTools.WebTestFramework.dll
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\bin\Debug\es\Microsoft.VisualStudio.QualityTools.WebTestFramework.resources.dll
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.vbproj.AssemblyReference.cache
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.vbproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.vbproj.CopyComplete
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.dll
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.xml
+C:\xampp\htdocs\Sukaritas\TestsGestorCitas\PruebasDeCarga\GestorDeCitas\GestorDeCitas\obj\Debug\GestorDeCitas.pdb

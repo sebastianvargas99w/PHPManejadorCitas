@@ -1,0 +1,10 @@
+cd C:\xampp\htdocs\Sukaritas\vendor\bin
+
+excluir cobertura en C:\xampp\htdocs\Sukaritas\vendor\bin\phpunit.xml
+phpunit --coverage-html ..\..\TestsGestorCitas\cobertura
+
+
+ejecutar un archivo
+phpunit --filter RegistrarPacienteTest
+phpunit --filter cajaBlancaConsultarCitasTest
+phpunit --filter nombre de clase de la prueba

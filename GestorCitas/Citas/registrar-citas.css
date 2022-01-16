@@ -1,0 +1,84 @@
+
+body {
+    background-color: var(--fondo-casi-blanco);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+#formulario-cita{
+    width: 40%;
+    margin-left: 3%;
+}
+
+#titulo{
+    margin: 2%;
+}
+#formulario-cita > fieldset{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+#formulario-cita > fieldset > input{
+    width: 250px;
+    border-radius: 7px;
+    border-width: 1px;
+    border-color: black;
+    height: 35px;
+}
+
+#formulario-cita > fieldset > select{
+    width: 250px;
+    border-radius: 7px;
+    border-color: black;
+    height: 35px;
+
+}
+#button-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+    justify-content: center;
+
+}
+#registrar{
+    font-size: 1.5em;
+    text-decoration: none;
+	text-shadow: 0.4px 0.4px 0.4px black;
+	font-size: 15px;
+	background-color: var(--secundario, white);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 7px;
+	border-width: 1px;
+	cursor: pointer;
+	color: white;
+	box-shadow: 1.23px 1.25px 2.5px grey;
+	border:none;
+
+}
+
+label{
+    font-size: x-large;
+}
+
+
+main, header {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mensaje {
+    margin-bottom: 2%;
+    display: block;
+    font-size: large;
+  }
+
+.error{
+    color: red;
+}
+

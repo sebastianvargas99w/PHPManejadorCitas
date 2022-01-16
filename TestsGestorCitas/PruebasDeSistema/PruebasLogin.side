@@ -1,0 +1,328 @@
+{
+  "id": "25cdcaf8-c97d-4990-a587-2ad55f18acde",
+  "version": "2.0",
+  "name": "PruebasLogin",
+  "url": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+  "tests": [{
+    "id": "eaf17676-6a74-4fc1-9449-79bb870100d6",
+    "name": "Login Exitoso",
+    "commands": [{
+      "id": "16740ea2-fd0e-45b8-8e57-efc785b085f3",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8768fff-8e74-4b6f-8a0e-3613bfc6aa81",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b148af21-6f60-4ef4-8040-3ba91366e66a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c49f1c70-22cc-4d09-a024-f5db8eb2642a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "a23bfade-a995-4d12-936e-10f4cda986a4",
+      "comment": "",
+      "command": "type",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "8261737b-8d54-4571-8fa9-b37b036a3ad3",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingresar",
+      "targets": [
+        ["id=ingresar", "id"],
+        ["css=#ingresar", "css:finder"],
+        ["xpath=//button[@id='ingresar']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-boton']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a7ca922-6005-4484-a3fd-0240a9c0f3ad",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=titulo",
+      "targets": [
+        ["id=titulo", "id"],
+        ["css=#titulo", "css:finder"],
+        ["xpath=//h1[@id='titulo']", "xpath:attributes"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Consultar citas')]", "xpath:innerText"]
+      ],
+      "value": "Consultar citas"
+    }, {
+      "id": "9ce38d39-55bd-42d4-92e7-3f8962d2d3d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cerrar Sesión",
+      "targets": [
+        ["linkText=Cerrar Sesión", "linkText"],
+        ["css=#navbarTogglerDemo03 > .nav-item > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cerrar Sesión')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerDemo03']/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Login/Logout.php')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cerrar Sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0f73e024-bef6-4d0d-9028-1c1f4442d903",
+    "name": "Login Fallido",
+    "commands": [{
+      "id": "fa06d13b-fcbc-4111-b54c-f0f5c68cfc71",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9eef3e1e-b496-48cf-95f5-4129db240dea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4c13d2a-9138-4687-a46b-3c235cdb1f29",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa6b5194-65e6-425c-9f2e-9d90f706f581",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "2eba1199-767a-4792-b790-d075ae9cb71f",
+      "comment": "",
+      "command": "click",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbb5a78b-275c-422c-bd3d-405aabe0ffb5",
+      "comment": "",
+      "command": "type",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "incorrecto"
+    }, {
+      "id": "de4ae6f2-c961-4d3c-a407-3abee609891e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingresar",
+      "targets": [
+        ["id=ingresar", "id"],
+        ["css=#ingresar", "css:finder"],
+        ["xpath=//button[@id='ingresar']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-boton']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2c112d-655d-41d4-9ab2-2de88d0e544f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.requerido",
+      "targets": [
+        ["css=.requerido", "css:finder"],
+        ["xpath=//label[@id='mensaje-error']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Los datos ingresados son incorrectos')]", "xpath:innerText"]
+      ],
+      "value": "Los datos ingresados son incorrectos"
+    }]
+  }, {
+    "id": "3cc00f32-e352-417a-b42f-49b91f85535a",
+    "name": "Login Bloqueado",
+    "commands": [{
+      "id": "df6f5e50-8e37-4a7c-baa9-cd0712fa54bd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e642708-dd09-4cd1-b2ae-d644b16220e5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10bbabc2-695b-4a25-8527-86d2f51015d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1dfe2c3-b1f0-4202-b58a-f36ba1828537",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "987654321"
+    }, {
+      "id": "d6e0e1c1-3774-4963-be99-53b9adab5335",
+      "comment": "",
+      "command": "click",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6110ca5d-0705-4273-8da2-73ec65784e00",
+      "comment": "",
+      "command": "type",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "37d2f339-949e-458e-9294-cf8016a7bd4e",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingresar",
+      "targets": [
+        ["id=ingresar", "id"],
+        ["css=#ingresar", "css:finder"],
+        ["xpath=//button[@id='ingresar']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-boton']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e052be7c-3993-45cb-94ad-d2927380d0e4",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=mensaje-error",
+      "targets": [
+        ["id=mensaje-error", "id"],
+        ["css=#mensaje-error", "css:finder"],
+        ["xpath=//label[@id='mensaje-error']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-login']/label", "xpath:idRelative"],
+        ["xpath=//form/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Ha sobrepasado el limite de intentos, su cuenta está bloqueada')]", "xpath:innerText"]
+      ],
+      "value": "Ha sobrepasado el limite de intentos, su cuenta está bloqueada"
+    }, {
+      "id": "e050bc82-cd48-436a-ab21-2ac4fb223a9b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e15d2104-c37e-4d3a-8ee7-2a8e84e36840",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/Sukaritas/GestorCitas/Login/Login.php"],
+  "plugins": []
+}

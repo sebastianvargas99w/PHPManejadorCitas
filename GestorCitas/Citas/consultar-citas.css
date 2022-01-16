@@ -1,0 +1,128 @@
+body {
+  background: var(--fondo-general);
+}
+
+main,
+header {
+  margin: 25px;
+  margin-bottom: -1%;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+nav,
+h1,
+#formulario-citas {
+  margin-bottom: 20px;
+}
+#formulario-citas {
+  margin-bottom: 20px;
+  padding-left: 17px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+label,
+input {
+  font-size: 1.4em;
+  margin-right: 15px;
+}
+
+input,
+#contenedor-tabla {
+  background: var(--fondo-texto);
+  border-radius: 7px;
+}
+
+#agregar-citas {
+  width: 40px;
+  height: 40px;
+}
+
+.icono,
+#icono-buscar,
+#icono-agregar {
+  border-radius: 7px;
+  width: 40px;
+  height: 40px;
+}
+
+#tabla {
+  border-collapse: separate;
+  table-layout: fixed;
+}
+
+#agregar-citas {
+  color: darkblue !important; /*todo: cambiar*/
+}
+
+.titulo-columna td {
+  font-size: 1.5em;
+}
+
+.tupla td {
+  font-size: 1.3em;
+}
+
+td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#contenedor-tabla {
+  padding: 20px;
+  width: 88%;
+  height: 52%;
+  position: absolute;
+  border: solid;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#agregar,
+#buscar {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 20%;
+  text-decoration: none;
+  text-shadow: 0.4px 0.4px 0.4px black;
+  font-size: 1.4em;
+  background-color: var(--principal, white);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  border-width: 1px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 1.23px 1.25px 2.5px grey;
+  border: none;
+  
+}
+
+#agregar {
+  height: 100%;
+  padding: 8px;
+  padding-bottom: 12px;
+  
+  
+}
+
+#mensaje-error {
+  padding-left: 17px;
+  margin-top: -1%;
+  margin-bottom: -1%;
+  display: block;
+}
+#error {
+  display: inline-flex;
+  color: red;
+}
+

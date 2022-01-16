@@ -1,0 +1,99 @@
+body {
+  background-color: var(--fondo-casi-blanco);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media (min-height: 600px) {
+  header {
+    margin-top: 6.5%;
+  }
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+fieldset label {
+  margin-right: 20px;
+  width: 20%;
+  display: inline-flex;
+}
+
+fieldset input {
+  border-radius: 7px;
+}
+
+label,
+input,
+h2 {
+  font-size: 1.4em;
+  margin-right: 20px;
+}
+label {
+  font-size: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background-color: var(--fondo-general);
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-radius: 7px;
+  padding: 17px;
+  border: 0px;
+  box-shadow: 1.5px 1.5px 3px grey;
+}
+
+#contenedor-boton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#titulo-formulario {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#area-contrasena {
+  margin-top: 10px;
+}
+
+#ingresar {
+  font-size: 1.5em;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+fieldset {
+  border: none;
+  display: inline;
+}
+
+#mensaje-error {
+  padding-left: 17px;
+  display: block;
+}
+
+.error {
+  visibility: hidden;
+}
+
+.requerido {
+  display: inline-flex;
+  color: red;
+}

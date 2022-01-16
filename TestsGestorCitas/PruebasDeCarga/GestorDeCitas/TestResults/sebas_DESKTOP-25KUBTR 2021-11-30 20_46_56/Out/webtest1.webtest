@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="15d79646-5413-48e1-a2f4-2f4fc3ff8955" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.e6a5e555-ec01-4c89-ac15-f6d76a5f19bc.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="3ab4447e-fb61-46e5-adcd-f23348e70e96" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://api.bing.com/qsml.aspx?query=http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php&amp;maxwidth=32765&amp;rowheight=20&amp;sectionHeight=160&amp;FORM=IESS4A&amp;market=es-419&amp;pc=EUPP_" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php" RecordedValue="http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS4A" RecordedValue="IESS4A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="es-419" RecordedValue="es-419" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d0f57443-66b5-498c-bf2f-c4b7186f658d" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://api.bing.com/qsml.aspx?query=http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php&amp;maxwidth=32765&amp;rowheight=20&amp;sectionHeight=160&amp;FORM=IESS4A&amp;market=es-419&amp;pc=EUPP_" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php" RecordedValue="http%3A%2F%2Flocalhost%2FSukaritas%2FGestorCitas%2FLogin%2FLogin.php" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="20" RecordedValue="20" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="160" RecordedValue="160" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IESS4A" RecordedValue="IESS4A" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="es-419" RecordedValue="es-419" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pc" Value="EUPP_" RecordedValue="EUPP_" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="9b649f23-d084-4778-aa61-3149e4d6ad41" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Login/Login.php" ThinkTime="18" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="91b293a6-efde-4d7b-a825-2b81e03d526b" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Login/login-function.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Login/login.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116530319" RecordedValue="116530319" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="contrasena" Value="1234" RecordedValue="1234" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="bbbbbcb0-8c0f-45b5-af84-e250365ad287" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Login/login-function.php" ThinkTime="35" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Login/login.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Login/Login.php" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116530319" RecordedValue="116530319" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="contrasena" Value="1234" RecordedValue="1234" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="5929bce8-3f03-44c9-94a7-79b1986913de" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Login/login-function.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="contrasena" Value="1234" RecordedValue="1234" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="92726961-2717-4755-9c13-464692b6c2a2" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Login/login-function.php" ThinkTime="22" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Login/login.php" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="contrasena" Value="1234" RecordedValue="1234" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="0a4d9e14-4ed8-44c4-94d3-205e7193f26b" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.cedula" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&#xD;&#xA;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.cedula" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&#xD;&#xA;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.cedula" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&#xD;&#xA;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam4.cedula" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&#xD;&#xA;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam5.cedula" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="der=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;/&gt;&#xD;&#xA;" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="1ff41fdb-976d-4568-87a5-3fd48abb4088" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ThinkTime="74" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="42ea09f5-f339-43e2-90e8-37e78361d17a" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/cita-function.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="289c87fd-5b80-4461-881a-67b9443d7268" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/cita-function.php" ThinkTime="27" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="{{FormPostParam2.cedula}}" UrlEncode="True" />
+            <FormPostParameter Name="idProfesional" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="fecha_cita" Value="07/07/2022" RecordedValue="07/07/2022" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="hora_cita" Value="11:31" RecordedValue="11:31" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="{{FormPostParam1.cedula}}" UrlEncode="True" />
+        <FormPostParameter Name="idProfesional" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="fecha_cita" Value="07/07/2022" RecordedValue="07/07/2022" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hora_cita" Value="11:31" RecordedValue="11:31" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="da9a6bfe-079f-44b0-b29b-fdc4e4b00976" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/cita-function.php" ThinkTime="32" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="{{FormPostParam3.cedula}}" UrlEncode="True" />
+        <FormPostParameter Name="idProfesional" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="fecha_cita" Value="07/07/2022" RecordedValue="07/07/2022" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hora_cita" Value="11:31" RecordedValue="11:31" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="e2c074bd-8e74-4812-9374-f44eaa4c53d4" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/cita-function.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="8ba3fa0b-da26-48f5-8420-0430f6d5b07e" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/cita-function.php" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="{{FormPostParam5.cedula}}" UrlEncode="True" />
+            <FormPostParameter Name="idProfesional" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="fecha_cita" Value="30/11/2022" RecordedValue="30/11/2022" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="hora_cita" Value="11:34" RecordedValue="11:34" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116540419" RecordedValue="116540419" CorrelationBinding="{{FormPostParam4.cedula}}" UrlEncode="True" />
+        <FormPostParameter Name="idProfesional" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="fecha_cita" Value="30/11/2022" RecordedValue="30/11/2022" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="hora_cita" Value="11:34" RecordedValue="11:34" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d5bce71b-9fd5-4200-8403-7a8d422d3ed2" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php#" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="679f79bd-c3fa-4984-91ea-f7fa2ea439ca" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/registrar-citas.php" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="981ed67c-939e-4162-bd28-c461cdfa63af" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Paciente/InterfazRegistrarPaciente.php" ThinkTime="19" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="817b4594-51d8-4d23-be42-8794fd21f9c1" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Paciente/controlador-registrar-paciente.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Paciente/InterfazRegistrarPaciente.php" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="83b5b478-e5ae-4fe8-a619-083e267bd7ee" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Paciente/controlador-registrar-paciente.php" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://localhost/Sukaritas/GestorCitas/Paciente/InterfazRegistrarPaciente.php" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Paciente/InterfazRegistrarPaciente.php" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="cedula" Value="116530319" RecordedValue="116530319" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="nombre" Value="Sebastián" RecordedValue="Sebastián" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="apellido" Value="Vargas Vargas" RecordedValue="Vargas Vargas" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="telefono" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <FormPostHttpBody>
+        <FormPostParameter Name="cedula" Value="116530319" RecordedValue="116530319" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="nombre" Value="Sebastián" RecordedValue="Sebastián" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="apellido" Value="Vargas Vargas" RecordedValue="Vargas Vargas" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="telefono" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d2615720-6046-47e4-a941-f5e29ed79965" Version="1.1" Url="http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://localhost/Sukaritas/GestorCitas/Paciente/InterfazRegistrarPaciente.php" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Dirección URL de respuesta" Description="Comprueba que la dirección URL de respuesta tras el seguimiento de las redirecciones es la misma que la dirección URL de respuesta registrada. Se omiten los parámetros de QueryString." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Objetivo de tiempo de respuesta" Description="Valida que el tiempo de respuesta de la solicitud sea menor o igual que el objetivo de tiempo de respuesta especificado en la solicitud. Se pasarán por alto los objetivos de tiempo de respuesta que sean cero." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

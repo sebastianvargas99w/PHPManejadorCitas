@@ -1,0 +1,1284 @@
+{
+  "id": "a8083314-ea51-4e77-b524-079b7a124d55",
+  "version": "2.0",
+  "name": "ConsultarCitasPorProfesional",
+  "url": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+  "tests": [{
+    "id": "50eeab4f-4df4-419a-993a-f7974c182854",
+    "name": "VariosPacientes",
+    "commands": [{
+      "id": "7f822eaa-70e4-40e9-933d-8a927f20c024",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbaac63f-f7aa-4af8-86b8-9b2ab230cbd1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pacientes",
+      "targets": [
+        ["linkText=Pacientes", "linkText"],
+        ["css=.nav-item:nth-child(3) > .a-citas", "css:finder"],
+        ["xpath=//a[contains(text(),'Pacientes')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerDemo03']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Paciente/InterfazRegistrarPaciente.php')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pacientes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "735cd1fc-7709-4773-a745-611b4358924e",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99dfca62-5290-4b23-a4aa-287e8d38377c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540401"
+    }, {
+      "id": "6f40689c-349f-498a-b018-4602bb069abf",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4d10ac1-c110-48fd-8e7c-86f48229bab5",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "Ana"
+    }, {
+      "id": "a7435240-862c-4bb2-9d19-498e4e26415e",
+      "comment": "",
+      "command": "click",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1cc4cce-ce32-42e9-9d2b-13818e386799",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "Vargas"
+    }, {
+      "id": "4dbd7ae4-721b-4a15-b26b-1ae73da1a226",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-box",
+      "targets": [
+        ["id=button-box", "id"],
+        ["css=#button-box", "css:finder"],
+        ["xpath=//div[@id='button-box']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9540394-0857-4d16-8080-faca9854695d",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefono",
+      "targets": [
+        ["id=telefono", "id"],
+        ["name=telefono", "name"],
+        ["css=#telefono", "css:finder"],
+        ["xpath=//input[@id='telefono']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8da308b6-d45e-4f4a-9206-a67c5bfcf875",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefono",
+      "targets": [
+        ["id=telefono", "id"],
+        ["name=telefono", "name"],
+        ["css=#telefono", "css:finder"],
+        ["xpath=//input[@id='telefono']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "12341234"
+    }, {
+      "id": "91ffa8c0-a5da-4ef6-b49e-aa81cb1316c7",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrar",
+      "targets": [
+        ["id=registrar", "id"],
+        ["css=#registrar", "css:finder"],
+        ["xpath=//button[@id='registrar']", "xpath:attributes"],
+        ["xpath=//div[@id='button-box']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b023708a-f8e5-4734-846c-03f3dd3164ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6415e2-06b1-4e43-8c24-0c936c3b75db",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540402"
+    }, {
+      "id": "2ffeb7ec-6c5a-4b59-865f-70b3931ab512",
+      "comment": "",
+      "command": "click",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c36145-3317-4b84-941a-421b3c19a8b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=nombre",
+      "targets": [
+        ["id=nombre", "id"],
+        ["name=nombre", "name"],
+        ["css=#nombre", "css:finder"],
+        ["xpath=//input[@id='nombre']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "Juan"
+    }, {
+      "id": "f0437389-88a1-4eac-85e3-5a02a8661c96",
+      "comment": "",
+      "command": "click",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "342ab0cb-4ad1-44f7-ac5b-4043fb1a659f",
+      "comment": "",
+      "command": "type",
+      "target": "id=apellido",
+      "targets": [
+        ["id=apellido", "id"],
+        ["name=apellido", "name"],
+        ["css=#apellido", "css:finder"],
+        ["xpath=//input[@id='apellido']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "Perez"
+    }, {
+      "id": "616316fe-2ac1-4ee5-aaa4-d1ffd5e7a7e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefono",
+      "targets": [
+        ["id=telefono", "id"],
+        ["name=telefono", "name"],
+        ["css=#telefono", "css:finder"],
+        ["xpath=//input[@id='telefono']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60bb4bdb-2d79-4b55-9adb-5c5343543849",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefono",
+      "targets": [
+        ["id=telefono", "id"],
+        ["name=telefono", "name"],
+        ["css=#telefono", "css:finder"],
+        ["xpath=//input[@id='telefono']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "12341234"
+    }, {
+      "id": "04e2ac62-4d4a-4bf5-8b13-3b9a453bc8c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrar",
+      "targets": [
+        ["id=registrar", "id"],
+        ["css=#registrar", "css:finder"],
+        ["xpath=//button[@id='registrar']", "xpath:attributes"],
+        ["xpath=//div[@id='button-box']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae3970ec-0f4f-4bde-b91b-f8e54bb0925b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Citas",
+      "targets": [
+        ["linkText=Citas", "linkText"],
+        ["css=.nav-item:nth-child(2) > .a-citas", "css:finder"],
+        ["xpath=//a[contains(text(),'Citas')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerDemo03']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Citas/consultar-citas.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Citas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb7b2f32-f577-4bb0-8a51-8c3bea618a7f",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f313c4-38b5-4abc-808d-2d1d600aa3a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5696f27d-2127-4e7d-adf2-ddd99930c601",
+      "comment": "",
+      "command": "click",
+      "target": "id=agregar",
+      "targets": [
+        ["id=agregar", "id"],
+        ["linkText=Agregar citas", "linkText"],
+        ["css=#agregar", "css:finder"],
+        ["xpath=//a[contains(text(),'Agregar citas')]", "xpath:link"],
+        ["xpath=//a[@id='agregar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'registrar-citas.php')]", "xpath:href"],
+        ["xpath=//fieldset/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Agregar citas ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d318068b-0471-441e-9a54-620b4fcc75be",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f1e7fa2-4649-4a10-9ff4-21409af096c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540401"
+    }, {
+      "id": "cecdc325-ab7b-4518-8c6b-f45fd4aff1a0",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "edbc9b5a-0939-4b4c-be80-6a3034d4265f",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Tomás Guardia Gutiérrez"
+    }, {
+      "id": "b275806a-b4a5-4f58-95b2-f8a3ce16baf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "720be26c-655e-491e-82a8-2e46d3f7c914",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "2021-12-29"
+    }, {
+      "id": "e0d37126-55d9-44ef-af28-7fa5e1f48755",
+      "comment": "",
+      "command": "click",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b565b6d-dec7-44b2-a292-0508ef383dfb",
+      "comment": "",
+      "command": "type",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "10:30"
+    }, {
+      "id": "92b213f7-ec3d-4ca5-8044-ac123b80c8d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594036d6-6a0a-4bb8-8e6d-c02b0c4631f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrar",
+      "targets": [
+        ["id=registrar", "id"],
+        ["css=#registrar", "css:finder"],
+        ["xpath=//button[@id='registrar']", "xpath:attributes"],
+        ["xpath=//div[@id='button-box']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "13345a1c-b5f1-4ec6-8a59-c956956b9739",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "381bb2b7-ce90-4452-a29d-cfa778ae3d4d",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540419"
+    }, {
+      "id": "1d6ef130-cec2-4920-b27c-1f1fc56604a8",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "483b56de-8148-451a-aca7-e31e875cfa8a",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Tomás Guardia Gutiérrez"
+    }, {
+      "id": "e00e15b0-ab8f-4f2b-af5d-dd718e8b6c53",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea0d14ff-a666-4f8b-aaf8-23cbfeebbbf0",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "2022-01-19"
+    }, {
+      "id": "7f14deab-e5c8-44b8-ae32-eaaabc2bf96d",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83f9bf9e-0226-40ed-9d20-b6170797b8eb",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ac423d5-b6ff-45d9-9b61-23f601119291",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bb9a802-0f36-40fd-a759-5a7c859f56c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "446795ea-5579-4287-9e6e-cad220bfbc05",
+      "comment": "",
+      "command": "click",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9646b011-983c-4640-b27e-77d42efe25ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "10:20"
+    }, {
+      "id": "2d4f8e4b-ef55-43ee-b1dd-7d887947cc7d",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrar",
+      "targets": [
+        ["id=registrar", "id"],
+        ["css=#registrar", "css:finder"],
+        ["xpath=//button[@id='registrar']", "xpath:attributes"],
+        ["xpath=//div[@id='button-box']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b9e5b4-0820-4b84-a0c0-72a83f8fcef5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2673208a-75e8-4482-9480-885463e13c1a",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540402"
+    }, {
+      "id": "94960cea-cf5f-495a-bfd3-a6a34d163bc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "174f67bf-b4f2-4397-84de-7b048c211e42",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-registrar-cita:nth-child(1)",
+      "targets": [
+        ["css=.input-registrar-cita:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='formulario-cita']/fieldset", "xpath:idRelative"],
+        ["xpath=//fieldset", "xpath:position"],
+        ["xpath=//fieldset[contains(.,'Cédula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "592bf993-c0ff-4c6d-9518-af4270e66e8a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "92921488-e540-443e-9945-7eec3d39c8d8",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0984379-9142-4bc5-be3c-8916edbfa4a3",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d8a02f5-e0a5-4aa3-9bf9-2fc87878d95a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e34e812b-49ee-428a-91d8-e4b47a03af8b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84737357-9130-4981-b75c-34cb763da9c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3545db8-ec9e-4ff5-910b-c2b9f6764d8c",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Tomás Guardia Gutiérrez"
+    }, {
+      "id": "f4d54724-21f8-46ab-82f5-50a701971911",
+      "comment": "",
+      "command": "click",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5899ccad-b130-41e7-afa5-5e8d67c62012",
+      "comment": "",
+      "command": "type",
+      "target": "id=fecha_cita",
+      "targets": [
+        ["id=fecha_cita", "id"],
+        ["name=fecha_cita", "name"],
+        ["css=#fecha_cita", "css:finder"],
+        ["xpath=//input[@id='fecha_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[3]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[3]/input", "xpath:position"]
+      ],
+      "value": "2022-01-12"
+    }, {
+      "id": "bf68388e-9b04-420f-813a-dc1723fa590f",
+      "comment": "",
+      "command": "click",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "62374f3d-903e-4169-8af7-0ca0b5f5e0e8",
+      "comment": "",
+      "command": "type",
+      "target": "id=hora_cita",
+      "targets": [
+        ["id=hora_cita", "id"],
+        ["name=hora_cita", "name"],
+        ["css=#hora_cita", "css:finder"],
+        ["xpath=//input[@id='hora_cita']", "xpath:attributes"],
+        ["xpath=//form[@id='formulario-cita']/fieldset[4]/input", "xpath:idRelative"],
+        ["xpath=//fieldset[4]/input", "xpath:position"]
+      ],
+      "value": "11:32"
+    }, {
+      "id": "011ef06c-6e13-4245-a05b-51c3b1c37b72",
+      "comment": "",
+      "command": "click",
+      "target": "id=formulario-cita",
+      "targets": [
+        ["id=formulario-cita", "id"],
+        ["name=formulario-cita", "name"],
+        ["css=#formulario-cita", "css:finder"],
+        ["xpath=//form[@id='formulario-cita']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bd67d64-44d8-4169-a577-75c6889bede1",
+      "comment": "",
+      "command": "click",
+      "target": "id=registrar",
+      "targets": [
+        ["id=registrar", "id"],
+        ["css=#registrar", "css:finder"],
+        ["xpath=//button[@id='registrar']", "xpath:attributes"],
+        ["xpath=//div[@id='button-box']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Registrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce656d43-455f-4703-bbb3-b9fb75516b8a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Citas",
+      "targets": [
+        ["linkText=Citas", "linkText"],
+        ["css=.nav-item:nth-child(2) > .a-citas", "css:finder"],
+        ["xpath=//a[contains(text(),'Citas')]", "xpath:link"],
+        ["xpath=//div[@id='navbarTogglerDemo03']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '../Citas/consultar-citas.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Citas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdcbed84-b385-4df4-9b38-5a18c02d8027",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66d0cdf3-83b4-4539-811f-51f81cff5c53",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Tomás Guardia Gutiérrez"
+    }, {
+      "id": "497b84b9-a4d1-4210-9b99-6599e568a70e",
+      "comment": "",
+      "command": "click",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "428f0ea4-17d9-4977-858a-29e6f20f8e4f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "002dcdcb-46f5-45a7-9b80-cc6e00396e0c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec3c9ee-efbb-4615-8aaf-b8ab77695204",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.tupla:nth-child(1) > td:nth-child(6)",
+      "targets": [
+        ["css=.tupla:nth-child(1) > td:nth-child(6)", "css:finder"],
+        ["xpath=//tbody[@id='citas']/tr/td[6]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[6]", "xpath:position"],
+        ["xpath=//td[contains(.,'Tomás Guardia Gutiérrez')]", "xpath:innerText"]
+      ],
+      "value": "Tomás Guardia Gutiérrez"
+    }]
+  }, {
+    "id": "ebe41ad2-3859-4ce7-b0db-428f9fc2faab",
+    "name": "LoginPrerrequisito",
+    "commands": [{
+      "id": "fe463c57-8d69-4229-9fd8-2c2a63149134",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Login/Login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94a5c7f3-96b8-424e-85f5-a3b840cdd833",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x748",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6ebab43-3fd7-41e0-be9b-0b33bf699a76",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2dc637c-fa16-4f6e-945e-e4d4ee3a619f",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540419"
+    }, {
+      "id": "0aecd9ab-c79c-4ebd-8d38-423fb35855c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13823787-5c25-4649-ad27-c20abc517d76",
+      "comment": "",
+      "command": "type",
+      "target": "id=contrasena",
+      "targets": [
+        ["id=contrasena", "id"],
+        ["name=contrasena", "name"],
+        ["css=#contrasena", "css:finder"],
+        ["xpath=//input[@id='contrasena']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-contrasena']/input", "xpath:idRelative"],
+        ["xpath=//fieldset[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "c3e857f6-d22f-4042-a6fe-73c2d53007c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=ingresar",
+      "targets": [
+        ["id=ingresar", "id"],
+        ["css=#ingresar", "css:finder"],
+        ["xpath=//button[@id='ingresar']", "xpath:attributes"],
+        ["xpath=//div[@id='contenedor-boton']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ingresar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4b00c305-3a12-4c1c-9b50-325f2e4ed378",
+    "name": "NoHayCitas",
+    "commands": [{
+      "id": "955d1381-e1f9-45e9-be65-1c15c1c2b5c5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef195810-84ff-4907-997c-e43d6f79bfa6",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0e8c050-8c2a-450f-9f61-ca4c4e0e1e3f",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Jesús Jiménez Zamora"
+    }, {
+      "id": "860cdd4c-e526-498f-8d49-1608d3e0fb7d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=error",
+      "targets": [
+        ["id=error", "id"],
+        ["css=#error", "css:finder"],
+        ["xpath=//p[@id='error']", "xpath:attributes"],
+        ["xpath=//label[@id='mensaje-error']/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'No hay citas registradas')]", "xpath:innerText"]
+      ],
+      "value": "No hay citas registradas"
+    }]
+  }, {
+    "id": "15dc736e-d839-4685-8f8c-56238ea2dabc",
+    "name": "InteracciónConFiltroCedula",
+    "commands": [{
+      "id": "6585f407-6478-42aa-8443-c4924528f0f4",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/Sukaritas/GestorCitas/Citas/consultar-citas.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "204b2dde-37b4-43a8-9fa0-85345fb69865",
+      "comment": "",
+      "command": "click",
+      "target": "id=idProfesional",
+      "targets": [
+        ["id=idProfesional", "id"],
+        ["name=idProfesional", "name"],
+        ["css=#idProfesional", "css:finder"],
+        ["xpath=//select[@id='idProfesional']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45f9dec5-1950-4c85-a454-99b1372a4170",
+      "comment": "",
+      "command": "select",
+      "target": "id=idProfesional",
+      "targets": [],
+      "value": "label=Tomás Guardia Gutiérrez"
+    }, {
+      "id": "ed7972e2-b966-4598-9d62-842c5b2291ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "122475d2-b996-4f11-81d0-7dca23fb98f2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "125a46c8-fdd8-4264-b1bd-2a34d73f3531",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=buscar",
+      "targets": [
+        ["id=buscar", "id"],
+        ["css=#buscar", "css:finder"],
+        ["xpath=//button[@id='buscar']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/button", "xpath:idRelative"],
+        ["xpath=//fieldset/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Filtrar ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65c7ae19-e04b-4b49-a790-d9fe39a194e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tupla:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=.tupla:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tbody[@id='citas']/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'116540401')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8db5ea2-1a5b-481c-a56d-8e20b0d33627",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tupla:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=.tupla:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tbody[@id='citas']/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'116540401')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79f79945-9971-46a5-8d6c-ca105c8ac548",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.tupla:nth-child(1) > td:nth-child(2)",
+      "targets": [
+        ["css=.tupla:nth-child(1) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tbody[@id='citas']/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'116540401')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba5df9f1-82b5-4e3c-b79b-9f51a79e6682",
+      "comment": "",
+      "command": "click",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccd91e30-6227-4c07-9e33-81727a1996e4",
+      "comment": "",
+      "command": "type",
+      "target": "id=cedula",
+      "targets": [
+        ["id=cedula", "id"],
+        ["name=cedula", "name"],
+        ["css=#cedula", "css:finder"],
+        ["xpath=//input[@id='cedula']", "xpath:attributes"],
+        ["xpath=//fieldset[@id='area-cedula']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "116540401"
+    }, {
+      "id": "7f4fa6e6-6892-41c7-bfa5-25b06b02273f",
+      "comment": "",
+      "command": "click",
+      "target": "id=icono-buscar",
+      "targets": [
+        ["id=icono-buscar", "id"],
+        ["css=#icono-buscar", "css:finder"],
+        ["xpath=//img[@id='icono-buscar']", "xpath:attributes"],
+        ["xpath=//button[@id='buscar']/img", "xpath:idRelative"],
+        ["xpath=//fieldset/button/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e99340da-37df-4207-b1b9-ab6b8be6944c",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.tupla > td:nth-child(2)",
+      "targets": [
+        ["css=.tupla > td:nth-child(2)", "css:finder"],
+        ["xpath=//tbody[@id='citas']/tr/td[2]", "xpath:idRelative"],
+        ["xpath=//tbody[2]/tr/td[2]", "xpath:position"],
+        ["xpath=//td[contains(.,'116540401')]", "xpath:innerText"]
+      ],
+      "value": "116540402"
+    }]
+  }],
+  "suites": [{
+    "id": "039c9e4d-2c2a-4f15-84a9-157799c94846",
+    "name": "RegistrarVariasCitasAProfesional",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["50eeab4f-4df4-419a-993a-f7974c182854"]
+  }],
+  "urls": ["http://localhost/Sukaritas/GestorCitas/Login/Login.php"],
+  "plugins": []
+}

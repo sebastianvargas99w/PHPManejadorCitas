@@ -1,0 +1,26 @@
+
+#hidden-submit {
+	visibility: hidden;
+	height: 0px;
+	width: 0px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+a, button {
+	text-decoration: none;
+	text-shadow: 0.4px 0.4px 0.4px black;
+	font-size: 15px;
+	background-color: var(--secundario, white);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 7px;
+	border-width: 1px;
+	cursor: pointer;
+	color: white;
+	box-shadow: 1.23px 1.25px 2.5px grey;
+	border:none;
+}
